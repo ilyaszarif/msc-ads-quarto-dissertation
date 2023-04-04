@@ -2,7 +2,7 @@ project:
   type: book
 
 book:
-  title: "Investigating and Improving the Transparency and Reproducibility of Model-Based Research in Ecology and Conservation"
+  title: "This is my thesis"
   author: "Elliot Gould"
   description: "A thesis submitted in total fulfillment for the degree of Doctor of Philosophy at The University of Melbourne in 2023 in the Faculty of Science, School of Ecosystem and Forest Sciences."
   chapters:
