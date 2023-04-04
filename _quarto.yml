@@ -2,9 +2,9 @@ project:
   type: book
 
 book:
-  title: "This is my thesis"
-  author: "Susan Su"
-  description: "A thesis submitted for the degree of Doctor of Philosophy at Monash University in 2023. Department of Econometrics & Business Statistics."
+  title: "Investigating and Improving the Transparency and Reproducibility of Model-Based Research in Ecology and Conservation"
+  author: "Elliot Gould"
+  description: "A thesis submitted in total fulfillment for the degree of Doctor of Philosophy at The University of Melbourne in 2023 in the Faculty of Science, School of Ecosystem and Forest Sciences."
   chapters:
     - index.qmd
     - abstract.qmd
@@ -16,7 +16,7 @@ book:
     - "A-appA.qmd"
   references: refs.qmd
   page-footer:
-    left: "Created using <a href='https://quarto.org'>Quarto</a>. © 2023, Susan Su"
+    left: "Created using <a href='https://quarto.org'>Quarto</a>. © 2023, Elliot Gould"
     border: false
     background: light
   sidebar:
@@ -34,8 +34,8 @@ fig-height: 3.8
 fig-width: 6.3
 degreetype: Doctor of Philosophy
 submitted: 2023
-affiliation: Department of Econometrics & Business Statistics
-degrees: 'B.Sc. (Hons), University of Tangambalanga'
+affiliation: School of Ecosystem and Forest Sciences, Faculty of Science
+degrees: 'B.Sc., B.A., M.Sc., University of Melbourne'
 execute:
   freeze: auto
   echo: false
@@ -48,5 +48,5 @@ format:
     fontsize: 16px
     mainfont: "Merriweather, Georgia, serif"
     code-link: true
-  monashthesis-pdf:
+  unimelbthesis-pdf:
     keep-tex: false

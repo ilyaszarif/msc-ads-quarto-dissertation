@@ -22,8 +22,8 @@ image_read_pdf("_book/This-is-my-thesis.pdf", pages = 1) |>
 fs::file_copy("_book/This-is-my-thesis.pdf", "examples/template.pdf", overwrite = TRUE)
 ```
 
-# Monash Thesis Template
+# University of Melbourne Thesis Template
 
-This is a Quarto template that assists you in creating a Monash University thesis. Either fork or download the repository to get started.
+This is a Quarto template that assists you in creating a University of Melbourne thesis. Either fork or download the repository to get started.
 
 [![](examples/template.png)](examples/template.pdf)
