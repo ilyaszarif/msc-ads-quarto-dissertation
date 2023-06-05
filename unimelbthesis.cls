@@ -1,4 +1,4 @@
-%% unimelbthesis Class for LaTeX2e.
+%% uniexeterthesis Class for LaTeX2e.
 %% Version 5.0
 %% Elliot Gould.
 %% 4 April 2023
@@ -8,7 +8,7 @@
 %% at the University of Melbourne, Australia.
 
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{unimelbthesis}[2023/04/04 Unimelb Thesis Class]
+\ProvidesClass{uniexeterthesis}[2023/04/04 Uniexeter Thesis Class]
 
 %% FONT
 \usepackage[T1]{fontenc}
@@ -160,7 +160,7 @@
 \def\titlepage{{\sf
     \thispagestyle{empty}%
     \null\vskip1cm%
-    \centerline{\includegraphics[width=12cm]{unimelb_logo.eps}}
+    \centerline{\includegraphics[width=12cm]{UOE-green.eps}}
     \vfill
     \begin{center}\fontsize{24}{28}\sf
         \textbf{\expandafter{\@title}}\\
@@ -169,7 +169,7 @@
         \fontsize{13}{15}\sf
         \@degrees
     \vfill\fontsize{13}{15}\sf
-        A thesis submitted in total fulfillment for the degree of \degreetitle\ at The University of Melbourne in \@submitdate\\
+        A dissertation submitted in partial fulfillment for the degree of \degreetitle\ at The University of Exeter in \@submitdate\\
         \affiliation
     \end{center}
     %\hrulefill

@@ -2,9 +2,9 @@ project:
   type: book
 
 book:
-  title: "This is my thesis"
-  author: "Elliot Gould"
-  description: "A thesis submitted in total fulfillment for the degree of Doctor of Philosophy at The University of Melbourne in 2023 in the Faculty of Science, School of Ecosystem and Forest Sciences."
+  title: "Differntial Gene Expression Modelling"
+  author: "Muhammad Ilyas"
+  description: "A thesis submitted in partial fulfillment for the degree of Master of science at The University of Exeter in 2023 in the Faculty of Environment, Science and Economy."
   chapters:
     - index.qmd
     - abstract.qmd
@@ -16,7 +16,7 @@ book:
     - "A-appA.qmd"
   references: refs.qmd
   page-footer:
-    left: "Created using <a href='https://quarto.org'>Quarto</a>. © 2023, Elliot Gould"
+    left: "Created using <a href='https://quarto.org'>Quarto</a>. © 2023, Muhammad Ilyas"
     border: false
     background: light
   sidebar:
@@ -32,10 +32,10 @@ bibliography: thesisrefs.bib
 csl: apa-single-spaced.csl
 fig-height: 3.8
 fig-width: 6.3
-degreetype: Doctor of Philosophy
+degreetype: Master of Science
 submitted: 2023
-affiliation: School of Ecosystem and Forest Sciences, Faculty of Science
-degrees: 'B.Sc., B.A., M.Sc., University of Melbourne'
+affiliation: Faculty of Environment, Science and Economy
+degrees: 'M.Sc., University of Exeter'
 execute:
   freeze: auto
   echo: false
