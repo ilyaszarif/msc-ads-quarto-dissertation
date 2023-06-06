@@ -1,0 +1,8 @@
+title: University of Exeter Thesis Format Template
+author: Muhammad Ilyas
+version: 0.1.0
+contributes:
+  formats:
+    pdf:
+      template: uniexeterthesis.tex
+      pdf-engine: pdflatex
