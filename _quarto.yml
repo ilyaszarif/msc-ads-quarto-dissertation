@@ -48,5 +48,5 @@ format:
     fontsize: 16px
     mainfont: "Merriweather, Georgia, serif"
     code-link: true
-  unimelbthesis-pdf:
+  uniexeterthesis-pdf:
     keep-tex: false

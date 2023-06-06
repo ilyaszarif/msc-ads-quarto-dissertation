@@ -1,8 +1,0 @@
-title: University of Melbourne Thesis Format Template
-author: Elliot Gould
-version: 0.1.0
-contributes:
-  formats:
-    pdf:
-      template: unimelbthesis.tex
-      pdf-engine: pdflatex

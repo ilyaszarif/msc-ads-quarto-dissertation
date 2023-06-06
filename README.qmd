@@ -14,17 +14,18 @@ library(magick)
 # Render template
 quarto_render(input = "index.qmd")
 # Convert rendered PDF to PNG
-image_read_pdf("_book/This-is-my-thesis.pdf", pages = 1) |>
+image_read_pdf("_book/Differntial-Gene-Expression-Modelling.pdf", pages = 1) |>
   image_montage(geometry = "x500+25+35", tile = 1, bg = "grey92", shadow = TRUE) |>
   image_convert(format = "png") |>
   image_write("examples/template.png", )
 # Move pdf to examples folder
-fs::file_copy("_book/This-is-my-thesis.pdf", "examples/template.pdf", overwrite = TRUE)
+fs::file_copy("_book/Differntial-Gene-Expression-Modelling.pdf", "examples/template.pdf", overwrite = TRUE)
 ```
 
-# University of Melbourne Thesis Template
+# University of Exeter Thesis Template
 
-This is a Quarto template that assists you in creating a University of Melbourne thesis. Either fork or download the repository to get started. This repository has been minimally altered from 
-the [Monash Quarto Template](https://github.com/numbats/monash-quarto-thesis) by Rob J. Hyndman.
+This repository is for my master dissertation project, in partial fulfilment for the requirements of [MSc Applied Data Science (Ecology and Evolution)](https://www.exeter.ac.uk/study/postgraduate/courses/mathematics/appdataeco/)  at [University of Exeter](https://www.exeter.ac.uk/).
+
+Thanks to Elliot Gould for the template [University of Melbourne Thesis Template](https://github.com/egouldo/quarto-thesis).
 
 [![](examples/template.png)](examples/template.pdf)
