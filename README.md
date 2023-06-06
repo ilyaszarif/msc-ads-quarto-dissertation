@@ -1,13 +1,16 @@
 
 <!-- README.md is generated from README.qmd. Please edit that file -->
 
-# University of Melbourne Thesis Template
+# University of Exeter Thesis Template
 
-This is a Quarto template that assists you in creating a University of
-Melbourne thesis. Either fork or download the repository to get started.
-This repository has been minimally altered from the [Monash Quarto
-Template](https://github.com/numbats/monash-quarto-thesis) by Rob J.
-Hyndman.
+This repository is for my master dissertation project, in partial
+fulfilment for the requirements of [MSc Applied Data Science (Ecology
+and
+Evolution)](https://www.exeter.ac.uk/study/postgraduate/courses/mathematics/appdataeco/)
+at [University of Exeter](https://www.exeter.ac.uk/).
+
+Thanks to Elliot Gould for the template [University of Melbourne Thesis
+Template](https://github.com/egouldo/quarto-thesis).
 
 <div>
 
