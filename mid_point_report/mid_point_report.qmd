@@ -22,6 +22,8 @@ execute:
   eval: false
 engine: knitr
 date: today
+bibliography: 'https://api.citedrive.com/bib/c06b758b-f2c7-4246-9fa0-4de91852b333/references.bib?x=eyJpZCI6ICJjMDZiNzU4Yi1mMmM3LTQyNDYtOWZhMC00ZGU5MTg1MmIzMzMiLCAidXNlciI6ICIyMzkxIiwgInNpZ25hdHVyZSI6ICJjYjFkNjVkNDgxZmY3YzFmYjI0MWY2MjNiZWU0MWM0YjRjZWNhODRjODNmMTE4YmM1MTQ0OTk4YjlmYTA3ZDQ1In0=/bibliography.bib'
+csl: plos.csl
 editor: visual
 ---
 
@@ -45,14 +47,14 @@ Provided by Dr. Barbara's Lab from Centre of Ecology and Conservation. The exper
 
 # Data Wrangling
 
-The raw data needs processing to before any analysis can be performed. A pipeline was designed to process the raw transcriptome data. The process involves quality check, trimming adapter sequences and discarding low quality reads, mapping the transcriptome against a reference genome and obtaining count tables. The count tables can be used for down stream analysis of the data to find out which genes are differentially expressed. Due to the large size of data the servers were used for carrying the process. Most of the analysis was performed in R using Bioconductor, except for the mapping and generating count tables which were done using STAR and HTSeq respectively.
+The raw data needs processing to before any analysis can be performed. A pipeline was designed to process the raw transcriptome data. The process involves quality check, trimming adapter sequences and discarding low quality reads, mapping the transcriptome against a reference genome and obtaining count tables. The count tables can be used for down stream analysis of the data to find out which genes are differentially expressed. Due to the large size of data the servers were used for carrying the process. Most of the analysis was performed in R using Bioconductor, except for the mapping and generating count tables which were done using STAR and HTSeq respectively. The fastp [@Chen_2018] was used to do the quality control and adapter trimming.
+
 ```{bash}
 cd dissertation_project/data 
 ```
 
-
-
 # Next Steps
+
 ```{r, eval=TRUE, echo=FALSE, warning=FALSE}
 #| label: gant-chart
 #| fig-cap: "Gant chart for next steps"
@@ -90,4 +92,6 @@ plot(g, ylabel=list(font=ifelse(is.na(g[["start"]]), 2, 1)),
      main = "")
 
 ```
+
+# References
 
